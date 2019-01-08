@@ -1,6 +1,7 @@
-package main.java.shang.test.controller;
+package shang.test.controller;
 
 
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -11,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
  * @Author shangXoL
  * @Date 2019/1/8 15:04
  **/
-@org.springframework.stereotype.Controller
+@Controller
 public class HelloController{
     @RequestMapping("/hello")
     public ModelAndView hello(javax.servlet.http.HttpServletRequest httpServletRequest, javax.servlet.http.HttpServletResponse httpServletResponse) throws Exception {
