@@ -1,8 +1,9 @@
 <html>
 <head>
-  <title>$Title$</title>
+  <title>springmvc测试</title>
 </head>
 <body>
 <h1>${message}</h1>
+<br>
 </body>
 </html>
